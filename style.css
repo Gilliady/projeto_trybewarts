@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+#evaluation-form {
+  display: flex;
+  flex: 0 0 675px;
+  flex-direction: column;
+  text-align: end;
+}
+
+#input-name, #input-lastname, #input-email, #house{
+  flex: 1 5 30%;
+  margin: 0 5px;
+  padding: 10px;
+  align-self: center;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
