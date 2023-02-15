@@ -1,16 +1,16 @@
-html {
-  box-sizing: border-box;
-}
-
 * {
   margin: 0;
-  font-family: 'Comfortaa', cursive;
-  font-family: 'Inknut Antiqua', serif;
+  font-family: Inknut Antiqua, serif;
+}
+
+html {
+  box-sizing: border-box;
 }
 
 body {
   background-color: rgba(211, 211, 211, 0.307);
 }
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -33,23 +33,29 @@ body {
   width: 100%;
 }
 
+#evaluation-form input , select , textarea , #email , #senha {
+  margin: 5px;
+  border-radius: 5px;
+  border: 0;
+  background-color: white;
+}
+
 main {
   display: flex;
   justify-content: space-evenly;
+  padding: 50px;
 }
 
 #evaluation-form {
   display: flex;
-  flex: 0 0 675px;
+  max-width: 675px;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-
 #input-name , #input-lastname , #input-email {
-  flex: 0 1 300px;
+  flex: 1 1 300px;
   padding: 10px;
-
 }
 
 section p {
@@ -61,23 +67,23 @@ section p {
 }
 
 section {
+  align-content: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: center;
   width: 100%;
 }
 
-
-section:nth-of-type(2) div:nth-of-type(1) {
+section:nth-of-type( 2 ) div:nth-of-type( 1 ) {
   display: flex;
-  width: 40%;
   flex-direction: column;
+  width: 40%;
 }
-section:nth-of-type(2) div:nth-of-type(2) {
-  width: 60%;
+
+section:nth-of-type( 2 ) div:nth-of-type( 2 ) {
   display: flex;
   flex-wrap: wrap;
+  width: 60%;
 }
 
 #label-content {
@@ -85,26 +91,26 @@ section:nth-of-type(2) div:nth-of-type(2) {
 }
 
 .techOptions {
-  flex: 1 1 30%;
   border: 1px solid lightgray;
+  flex: 1 1 30%;
 }
-
 
 #submit-btn {
   border: 0;
   border-radius: 8px;
-  height: 30px;
   color: white;
+  height: 30px;
+  flex: 1 1 100%;
   font-weight: 700;
 }
 
-h1{
+h1 {
   color: white;
 }
 
-footer{
- color: white;
- background-color: rgb(61, 62, 74);
- display: flex;
- justify-content: center;
+footer {
+  color: white;
+  background-color: rgb(61, 62, 74);
+  display: flex;
+  justify-content: center;
 }
