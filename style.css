@@ -4,6 +4,8 @@ html {
 
 * {
   margin: 0;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Inknut Antiqua', serif;
 }
 
 body {
@@ -92,7 +94,17 @@ section:nth-of-type(2) div:nth-of-type(2) {
   border: 0;
   border-radius: 8px;
   height: 30px;
-  background-color: #8526b4c9 ;
   color: white;
   font-weight: 700;
+}
+
+h1{
+  color: white;
+}
+
+footer{
+ color: white;
+ background-color: rgb(61, 62, 74);
+ display: flex;
+ justify-content: center;
 }
