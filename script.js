@@ -23,7 +23,7 @@ function checkbox() {
     botaoEnviar.style.backgroundColor = 'gray';
   } else {
     botaoEnviar.disabled = false;
-    botaoEnviar.style.backgroundColor = '#8526b4c9';
+    botaoEnviar.style.backgroundColor = 'rgb(89, 0, 132)';
   }
 }
 

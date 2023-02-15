@@ -4,6 +4,8 @@ html {
 
 * {
   margin: 0;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Inknut Antiqua', serif;
 }
 
 .header {
@@ -73,4 +75,15 @@ section:nth-of-type(2) div {
   height: 30px;
   color: white;
   font-weight: 700;
+}
+
+h1{
+  color: white;
+}
+
+footer{
+ color: white;
+ background-color: rgb(61, 62, 74);
+ display: flex;
+ justify-content: center;
 }
