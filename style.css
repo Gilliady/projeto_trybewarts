@@ -57,16 +57,14 @@ section {
   width: 100%;
 }
 
-#label-family {
+section:nth-of-type(2) div {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-around;
 }
 
 #submit-btn {
-display: flex;
-size: 50px;
-
-
-}
+  display: flex;
+  size: 50px;
+  
+  
+  }
