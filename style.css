@@ -26,25 +26,40 @@ html {
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #evaluation-form {
   display: flex;
   flex: 0 0 675px;
   flex-direction: column;
-  text-align: end;
 }
 
-#input-name , #input-lastname , #input-email , #house {
-  flex: 1 5 30%;
-  margin: 0 5px;
+#input-name , #input-lastname , #input-email {
+  flex: 0 1 300px;
   padding: 10px;
+
+}
+
+section p {
   align-self: center;
 }
 
-span {
+#house {
+  flex: 1 1 auto;
+}
+
+section {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-content: center;
   width: 100%;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
