@@ -63,3 +63,10 @@ section {
   flex-wrap: wrap;
   align-content: space-around;
 }
+
+#submit-btn {
+display: flex;
+size: 50px;
+
+
+}
