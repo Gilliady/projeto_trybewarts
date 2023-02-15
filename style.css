@@ -6,6 +6,9 @@ html {
   margin: 0;
 }
 
+body {
+  background-color: rgba(211, 211, 211, 0.307);
+}
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -24,6 +27,10 @@ html {
   display: flex;
 }
 
+.textarea {
+  width: 100%;
+}
+
 main {
   display: flex;
   justify-content: space-evenly;
@@ -33,7 +40,9 @@ main {
   display: flex;
   flex: 0 0 675px;
   flex-direction: column;
+  justify-content: space-evenly;
 }
+
 
 #input-name , #input-lastname , #input-email {
   flex: 0 1 300px;
@@ -58,12 +67,26 @@ section {
 }
 
 
-section:nth-of-type(2) div {
+section:nth-of-type(2) div:nth-of-type(1) {
   display: flex;
   width: 40%;
-  flex-wrap: wrap;
   flex-direction: column;
 }
+section:nth-of-type(2) div:nth-of-type(2) {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#label-content {
+  flex: 1 1 100%;
+}
+
+.techOptions {
+  flex: 1 1 30%;
+  border: 1px solid lightgray;
+}
+
 
 #submit-btn {
   border: 0;
