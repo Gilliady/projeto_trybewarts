@@ -8,34 +8,43 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1></h1>
-      <form action="" id="login-section"></form>
+    <header class="header">
+      <img
+        class="trybewarts-header-logo"
+        src="/images/trybewarts-header-logo.svg"
+        alt="logo trybewarts"
+      />
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form class="trybewarts-login" action="" id="login-section">
+        <input id="email" type="text" name="email" placeholder="Email" />
+        <input id="senha" type="password" name="password" placeholder="Senha" />
+        <button id="botao" type="submit">Entrar</button>
+      </form>
     </header>
     <main>
       <form action="" id="evaluation-form">
         <span>
-          <input type="text" name="nome" placeholder="Nome" id="input-name" />
+          <input type="text" name="nome" placeholder="Nome" id="input-name"/>
           <input type="text" name="sobrenome" placeholder="Sobrenome" id="input-lastname"/>
         </span>
         <span>
-          <input type="email" name="email" placeholder="Email" id="input-email" />
+          <input type="email" name="email" placeholder="Email" id="input-email"/>
           <p>Casa</p>
           <select name="casa" id="house">
-            <option value="Gitnória" id="gitnoria-house" selected>Gitnória</option>
+            <option value="Gitnória" id="gitnoria-house" selected>
+              Gitnória
+            </option>
             <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
             <option value="Corvinode" id="corvinode-house">Corvinode</option>
             <option value="Pytherina" id="pytherina-house">Pytherina</option>
           </select>
         </span>
-        <label for="" id="label-family"> Qual sua família?
-        </label>
-        <input type="radio" name="family" value="Frontend">
-        <input type="radio" name="family" value="Fullstack">
-        <input type="radio" name="family" value="Backend">
+        <label for="" id="label-family"> Qual sua família? </label>
+        <input type="radio" name="family" value="Frontend"/>
+        <input type="radio" name="family" value="Fullstack"/>
+        <input type="radio" name="family" value="Backend"/>
       </form>
-      <img
-        src="images/trybewarts-colored.svg" alt="Trybewarts Logo" height="500px" id="trybewarts-forms-logo"/>
+      <img src="images/trybewarts-colored.svg" alt="Trybewarts Logo" height="500px" id="trybewarts-forms-logo"/>
     </main>
     <footer>Direitos reservados à Trybewarts©</footer>
   </body>
