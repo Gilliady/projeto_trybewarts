@@ -10,6 +10,22 @@ function login() {
   }
 }
 
-const botao = document.querySelector('#botao');
+const botaoEntrar = document.querySelector('#botao');
 
-botao.addEventListener('click', login);
+botaoEntrar.addEventListener('click', login);
+
+const check = document.querySelector('#agreement');
+const botaoEnviar = document.querySelector('#submit-btn');
+
+function checkbox() {
+  if (check.checked === false) {
+    botaoEnviar.disabled = true;
+    botaoEnviar.style.backgroundColor = 'gray';
+  } else {
+    botaoEnviar.disabled = false;
+    botaoEnviar.style.backgroundColor = '#8526b4c9';
+  }
+}
+
+checkbox();
+check.addEventListener('click', checkbox);
