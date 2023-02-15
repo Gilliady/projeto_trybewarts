@@ -1,16 +1,18 @@
 html {
   box-sizing: border-box;
 }
+
 * {
   margin: 0;
 }
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   height: 45px;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 35px;
+  padding: 0 35px;
 }
 
 .trybewarts-header-logo {
@@ -21,6 +23,7 @@ html {
 .trybewarts-login {
   display: flex;
 }
+
 main {
   display: flex;
   justify-content: center;
@@ -33,10 +36,7 @@ main {
   text-align: end;
 }
 
-#input-name,
-#input-lastname,
-#input-email,
-#house {
+#input-name , #input-lastname , #input-email , #house {
   flex: 1 5 30%;
   margin: 0 5px;
   padding: 10px;
