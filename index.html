@@ -73,8 +73,13 @@
         <input type="radio" name="rate" id="8"><label for="8">8</label>
         <input type="radio" name="rate" id="9"><label for="9">9</label>
         <input type="radio" name="rate" id="10"><label for="10">10</label>
-        <label class="textarea"><strong>Deixe seu comentário:</strong></label>
-        <textarea id="" cols="60" rows="10" maxlength="500" style="resize: none;"></textarea>
+        <label class="textarea" id="textarea"><strong>Deixe seu comentário:</strong>
+          <textarea id="" cols="60" rows="10" maxlength="500" style="resize: none;"></textarea>
+        </label>
+        <div>
+          <section>Caracteres restantes:</section>
+          <span id="counter">500</span>
+        </div> 
         <label id="label-infos">Você concorda com o uso das informações acima?<input id="agreement" type="checkbox"></label>
         <button id="submit-btn" type="submit" disabled>Enviar</button>
       </section>

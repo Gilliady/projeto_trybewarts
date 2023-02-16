@@ -114,3 +114,7 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+div{
+  display: flex;
+}
